@@ -1,0 +1,14 @@
+/* Program untuk konversi satuan suhu dari derajat Celcius */
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+int main(){
+    float suhu;
+    cout<<("Masukkan suhu dalam derajat Celcius: ");
+    scanf("%f", &suhu);
+    printf("%f derajat Celsius sama dengan: \n", suhu);
+    printf("%f derajat Reamur:\n", suhu *4/5);
+    printf("%f derajat Fahrenheit: \n", (suhu*9/5)+32);
+    printf("%f derajat Kelvin: \n", suhu+273);
+    return 0;
+}
